@@ -101,9 +101,6 @@ python nova_dual_chatbot.py
 ```
 → `aws configure` 명령으로 AWS 자격 증명 설정
 
-### 상세한 문제 해결
-📖 [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) 참조
-
 ## 💡 다음 단계
 
 - 📚 [아키텍처 문서](docs/ARCHITECTURE.md) 읽기
@@ -115,7 +112,3 @@ python nova_dual_chatbot.py
 
 챗봇이 정상 작동한다면 축하합니다! 
 이제 Nova Micro의 빠른 응답과 Nova Pro의 고품질 답변을 동시에 경험할 수 있습니다.
-
----
-
-⭐ 도움이 되었다면 GitHub에서 스타를 눌러주세요!
