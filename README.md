@@ -1,9 +1,5 @@
 # Amazon Nova Dual Model Chatbot 🤖
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![AWS](https://img.shields.io/badge/AWS-Bedrock-orange.svg)](https://aws.amazon.com/bedrock/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 Nova Micro와 Nova Pro를 조합하여 **빠른 초기 응답**과 **상세한 최종 답변**을 제공하는 혁신적인 듀얼 모델 챗봇입니다.
 
 ## 🚀 주요 특징
@@ -182,16 +178,6 @@ def create_prompts(self, user_query: str):
 }
 ```
 
-## 💰 비용 분석
-
-일반적인 질문-답변 한 세트당 예상 비용:
-
-| 모델 | 입력 토큰 | 출력 토큰 | 비용 |
-|------|-----------|-----------|------|
-| Nova Micro | 50 | 30 | ~$0.000006 |
-| Nova Pro | 50 | 500 | ~$0.0016 |
-| **총 비용** | | | **~$0.0016** |
-
 ## 🐛 문제 해결
 
 ### 1. 모델 접근 권한 오류
@@ -212,30 +198,8 @@ Could not connect to the endpoint URL
 ```
 → 코드의 `region` 파라미터를 사용 가능한 리전으로 변경하세요.
 
-자세한 문제 해결 방법은 [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)를 참조하세요.
-
-## 🤝 기여하기
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📚 참고 자료
 
 - [Amazon Bedrock 사용자 가이드](https://docs.aws.amazon.com/bedrock/)
 - [Nova 모델 문서](https://docs.aws.amazon.com/bedrock/latest/userguide/nova-models.html)
 - [Boto3 Bedrock Runtime 문서](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-runtime.html)
-
-## 📄 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
-## 🙏 감사의 말
-
-이 프로젝트는 Amazon Bedrock의 Nova 모델 제품군을 활용하여 차세대 AI 챗봇 경험을 구현하는 것을 목표로 합니다. AWS의 혁신적인 AI 서비스에 감사드립니다.
-
----
-
-⭐ 이 프로젝트가 도움이 되었다면 스타를 눌러주세요!
